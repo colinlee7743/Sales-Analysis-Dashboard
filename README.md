@@ -1,8 +1,9 @@
 # Sales Analysis Dashboard
-<img src ="images/Sales_Analysis_Dashboard.jpg" alt="Coffee Sales Analysis Dashboard" width="600"/>
 
 ## Project Overview
 This Power BI dashboard provides an in-depth analysis of sales data for a coffee shop, including the daily sales trends, popular products and peak business hours, enabling us to make data-driven decisions to enhance our business strategy.
+
+<img src ="Sales_Analysis_Dashboard.jpg" alt="Coffee Sales Analysis Dashboard" width="600"/>
 
 ## Features
 - **Sales Overview**: Summary of total sales, orders, quantity sold, and month-on-month differences, with customizable filters for specific months.
