@@ -124,7 +124,7 @@ This project demonstrates the following skills:
 - **Business Intelligence**: Leveraging BI tools to inform business decisions and strategy.
 
 ## Data Source
-The analysis utilizes **150,000** transaction records from January 1, 2023, to June 30, 2023. Each transaction includes store location, product category, product type, quantity, and unit price. The sales data can be found [here](https://github.com/clee23-utas/Coffee-Sales-Analysis/blob/d3fc7472310205cf8c20df289af2553f3a72801b/Coffee%20Shop%20Sales.xlsx).
+The analysis utilizes **150,000** transaction records from January 1, 2023, to June 30, 2023. Each transaction includes store location, product category, product type, quantity, and unit price. The sales data can be found [here](Coffee_Sales_Analysis.pbix).
 
 <!-- ## References
 Tutorial Link (PowerBI): https://www.youtube.com/watch?v=zMrmSctNCbE
