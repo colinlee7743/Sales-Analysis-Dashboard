@@ -1,7 +1,7 @@
-# ☕ Coffee Sales Analysis Dashboard Using Power BI & MySQL
+# ☕ Coffee Sales Analysis Dashboard Using Power BI & SQL
 
 ## 📌 Project Overview
-This project features an interactive sales analysis dashboard built using Power BI, with MySQL as the backend data source. The dashboard highlights key performance indicators (KPIs), daily sales trends, popular products and peak business hours.
+This project features an interactive sales analysis dashboard built using Power BI and SQL for data validation. The dashboard highlights key performance indicators (KPIs), daily sales trends, popular products and peak business hours.
 
 ## 🎯 Objective
 To create a professional BI dashboard that visualizes coffee sales data using Power BI, while using SQL queries to verify accuracy and strengthen data literacy.
@@ -130,6 +130,7 @@ These figures highlight consumer preferences and revenue-driving products.
 
 ## 🎥 Tutorial Credit 
 This project was built by following the [YouTube](https://www.youtube.com/watch?v=zMrmSctNCbE) tutorial by *Data Tutorials*.
+
 
 <!-- ## References
 Tutorial Link (PowerBI): https://www.youtube.com/watch?v=zMrmSctNCbE
