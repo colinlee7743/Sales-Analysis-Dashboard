@@ -1,22 +1,30 @@
-# Sales Analysis Dashboard
+# ☕ Coffee Sales Analysis Dashboard Using Power BI & MySQL
 
-## Project Overview
-This Power BI dashboard provides an in-depth analysis of sales data for a coffee shop, including the daily sales trends, popular products and peak business hours, enabling us to make data-driven decisions to enhance our business strategy.
+## 📌 Project Overview
+This project features an interactive sales analysis dashboard built using Power BI, with MySQL as the backend data source. The dashboard highlights key performance indicators (KPIs), daily sales trends, popular products and peak business hours.
 
+## 🎯 Objective
+To create a professional BI dashboard that visualizes coffee sales data using Power BI, while using SQL queries to verify accuracy and strengthen data literacy.
+
+## 📂 Dataset
+- **Source**: [Coffee_Shop_Sales.xlsx](Coffee_Shop_Sales.xlsx)
+- **Records**: 150,000 transaction records from January 1, 2023, to June 30, 2023
+- **Columns**: 11 columns, including store location, product category, product type, quantity, and unit price
+
+## 📸 Dashboard Preview
 <img src ="Sales_Analysis_Dashboard.jpg" alt="Coffee Sales Analysis Dashboard" width="600"/>
 
-## Features
-- **Sales Overview**: Summary of total sales, orders, quantity sold, and month-on-month differences, with customizable filters for specific months.
-- **Time-Based Trends**: Interactive visualizations, including:
-  - **Calendar Heatmap**: Color-coded by sales volume, with tooltips for detailed metrics (sales, orders, quantity sold).
-  - **Daily Sales Bar Chart**: Displays daily sales with an average sales line for comparison.
-  - **Weekday vs. Weekend Pie Chart**: Compares sales percentages between weekdays and weekends.
-  - **Sales Patterns Heatmap**: Visualizes sales by day and hour, with detailed metrics on hover.
-- **Store Analysis**: Identifies top-performing stores through sales visualization by location.
-- **Product Performance**: Analyzes sales by product category and individual products.
+## 📊 Features
+- **Month Filters**: Select specific months to view data.
+- **KPI Cards**: Displays total sales, orders, quantity sold, and month-on-month changes.
+- **Calendar Heatmap**: Color-coded by sales volume, with tooltips showing detailed metrics (sales, orders, quantity sold).
+- **Daily Sales Chart**: Displays daily sales with an average sales line for comparison.
+- **Weekday vs. Weekend Pie Chart**: Compares sales between weekdays and weekends.
+- **Store Performance**: Displays top-performing stores by sales.
+- **Top Categories & Products**: Displays the best-sellers catogries and products by sales.  
+- **Sales Patterns Heatmap**: Shows sales by day and hour, with detailed metrics on hover.
 
-## Insights
-Key insights from the Coffee Sales Analysis Dashboard include:
+## 🔍 Insights
 - **Revenue Growth**: In June, total sales reached **$166,000** with **35,000** orders, marking a **6%** increase from May. This trend indicates rising customer demand and operational efficiency.
 - **Sales Patterns**: The 3rd and 4th weeks of June consistently outperformed the average, reflecting sustained customer interest and higher transaction volumes.
 - **Peak Business Hours**: High customer activity is observed between **7 AM to 10 AM**, indicating peak business hours during morning rush.
@@ -29,9 +37,7 @@ Key insights from the Coffee Sales Analysis Dashboard include:
 
 These figures highlight consumer preferences and revenue-driving products.
 
-## SQL Queries
-The following MySQL queries were developed to extract and manipulate data for the Coffee Sales Analysis Dashboard, ensuring accuracy and addressing key business challenges:
-
+## 📝 SQL Queries for Data Validation
 1. **Total Sales and Orders for Each Month**:
    ```sql
    With Sales AS (
@@ -51,7 +57,7 @@ The following MySQL queries were developed to extract and manipulate data for th
    FROM Sales;
    ```
    
-2. **Sales Trends by Days**:
+2. **Sales Trends by Days for June**:
    ```sql
    SELECT
      CASE
@@ -70,7 +76,7 @@ The following MySQL queries were developed to extract and manipulate data for th
    ORDER BY SUM(transaction_qty * unit_price) DESC;
    ```
 
-3. **Sales Trends by Hours**:
+3. **Sales Trends by Hours for June**:
    ```sql
    SELECT
      HOUR(transaction_time) AS hour_of_day,
@@ -81,7 +87,7 @@ The following MySQL queries were developed to extract and manipulate data for th
    ORDER BY hour_of_day;
    ```
 
-4. **Store Performance**:
+4. **Store Performance for June**:
    ```sql
    SELECT
      store_location,
@@ -92,7 +98,7 @@ The following MySQL queries were developed to extract and manipulate data for th
    ORDER BY total_sales DESC;
    ```
 
-5. **Best-Selling Products Category**:
+5. **Best-Selling Products Category for June**:
    ```sql
    SELECT
      product_category,
@@ -103,7 +109,7 @@ The following MySQL queries were developed to extract and manipulate data for th
    ORDER BY SUM(transaction_qty * unit_price) DESC;
    ```
    
-6. **Best-Selling Products Type**:
+6. **Best-Selling Products Type for June**:
    ```sql
    SELECT
      product_type,
@@ -115,16 +121,15 @@ The following MySQL queries were developed to extract and manipulate data for th
    LIMIT 10;
    ```
    
-## Skills Demonstrated
-This project demonstrates the following skills:
-- **Data Visualization**: Creating interactive visualizations to represent complex data.
+## 🔧 Skills Demonstrated
+- **Data Visualisation**: Creating interactive visualizations to represent complex data.
 - **DAX (Data Analysis Expressions)**: Writing formulas for advanced calculations.
 - **SQL**: Writing and optimizing queries for data extraction and manipulation.
 - **Data Cleaning**: Preprocessing data to ensure accuracy and consistency.
-- **Business Intelligence**: Leveraging BI tools to inform business decisions and strategy.
+- **Data Analysis**: Analyzing large datasets and identifying key insights.
 
-## Data Source
-The analysis utilizes **150,000** transaction records from January 1, 2023, to June 30, 2023. Each transaction includes store location, product category, product type, quantity, and unit price. The sales data can be found [here](Coffee_Sales_Analysis.pbix).
+## 🎥 Tutorial Credit 
+This project was built by following the [YouTube](https://www.youtube.com/watch?v=zMrmSctNCbE) tutorial by *Data Tutorials*.
 
 <!-- ## References
 Tutorial Link (PowerBI): https://www.youtube.com/watch?v=zMrmSctNCbE
