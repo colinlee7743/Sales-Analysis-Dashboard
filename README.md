@@ -1,7 +1,7 @@
 # ☕ Coffee Sales Analysis Dashboard Using Power BI & SQL
 
 ## 📌 Project Overview
-This project features an interactive sales analysis dashboard built using Power BI and SQL for data validation. The dashboard highlights key performance indicators (KPIs), daily sales trends, popular products and peak business hours.
+This project features an interactive sales analysis dashboard developed with Power BI, using SQL for data validation. The dashboard highlights key performance indicators (KPIs), daily sales trends, popular products and peak business hours.
 
 ## 🎯 Objective
 To create a professional BI dashboard that visualizes coffee sales data using Power BI, while using SQL queries to verify accuracy and strengthen data literacy.
