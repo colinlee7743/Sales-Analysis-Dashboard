@@ -128,11 +128,11 @@ These figures highlight consumer preferences and revenue-driving products.
 - **Data Cleaning**: Preprocessing data to ensure accuracy and consistency.
 - **Data Analysis**: Analyzing large datasets and identifying key insights.
 
+
+<!-- ## References
 ## 🎥 Tutorial Credit 
 This project was built by following the [YouTube](https://www.youtube.com/watch?v=zMrmSctNCbE) tutorial by *Data Tutorials*.
 
-
-<!-- ## References
 Tutorial Link (PowerBI): https://www.youtube.com/watch?v=zMrmSctNCbE
 Tutorial LInk (MySQL)  : https://www.youtube.com/watch?v=hgz0msTZtX8
 -->
